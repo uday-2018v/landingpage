@@ -1,11 +1,8 @@
 {
-  "name": "cleaning-app",
+  "name": "react_tailwind_landing",
   "version": "1.0.0",
   "private": true,
-<<<<<<< HEAD
   "homepage": ".",
-=======
->>>>>>> cc8c8c38e64df676f3579012124a4ecc4115cca2
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
