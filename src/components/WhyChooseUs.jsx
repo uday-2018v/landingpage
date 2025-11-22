@@ -17,7 +17,7 @@ export default function WhyChooseUs() {
         
         <div className="grid grid-cols-2 md:grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 gap-8 sm:gap-6 mb-8 sm:mb-12">
           {reasons.map((reason, idx) => (
-            <div key={idx} className={`bg-white p-6 sm:p-8 rounded-lg shadow hover:shadow-lg transition ${idx===5?'bg-emerald-600':'bg-white '}`}  >
+            <div key={idx} className={`bg-white p-6 sm:p-8 rounded-lg shadow hover:shadow-lg transition ${idx===5?'bg-green-600':'bg-white'}`}  >
               <div className="w-10 h-10 sm:w-12 sm:h-12 bg-lime-400 text-teal-700 rounded-full flex items-center justify-center mb-4 text-lg sm:text-xl font-bold">
                 {reason.icon}
               </div>
