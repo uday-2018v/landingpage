@@ -1,0 +1,18 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* helpers */
+.section-title { @apply text-2xl sm:text-3xl font-semibold text-gray-800 mb-6; }
+
+/* basic reset */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* small visual helpers */
+a { @apply text-brand-500; }
+img { display: block; max-width:100%; }
